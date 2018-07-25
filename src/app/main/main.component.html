@@ -1,0 +1,12 @@
+<div>
+<app-app-menu></app-app-menu>
+</div>
+<div style="display: flex">
+<div style="flex-grow: 1;border: 1px solid black; min-height: 300px;margin-right: 10px;">
+  <router-outlet name="app_main_outlet"></router-outlet>
+</div>
+<div style="width: 200px; border: 1px solid black; min-height: 300px">
+  <div>SIDEBAR</div>
+  <router-outlet name="app_side_outlet"></router-outlet>
+</div>
+</div>

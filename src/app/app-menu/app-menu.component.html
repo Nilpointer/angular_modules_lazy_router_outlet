@@ -1,4 +1,10 @@
-<div style="display: flex">
-  <div><a [routerLink]="['mod1']">Module1</a></div>
-  <div><a [routerLink]="['mod2']">Module2</a></div>
+<div style="display: flex; border: 1px solid black; margin: 20px">
+  <div style="margin-right: 20px;">MAIN MENU BAR</div>
+  <div><a [routerLink]="[{outlets: {app_main_outlet: ['mod1'] }}]">Link to lazy Module1</a></div>
+  <div style="margin: 0 20px">|</div>
+  <div><a [routerLink]="[{outlets: {app_main_outlet: ['mod2'] }}]">Link to lazy Module2</a></div>
+  <div style="margin: 0 20px">|</div>
+  <div><a [routerLink]="[{outlets: {app_side_outlet: ['side1'] }}]">Change to Sidebar1</a></div>
+  <div style="margin: 0 20px">|</div>
+  <div><a [routerLink]="[{outlets: {app_side_outlet: ['side2'] }}]">Change to Sidebar2</a></div>
 </div>

@@ -7,12 +7,13 @@ import { Mod1MenuComponent } from './mod1-menu/mod1-menu.component';
 import { Screen1Component } from './screen1/screen1.component';
 import { Screen2Component } from './screen2/screen2.component';
 import { Sec1Component } from './sec1/sec1.component';
+import { Sec2Component } from './sec2/sec2.component';
 
 @NgModule({
   imports: [
     CommonModule,
     Module1RoutingModule
   ],
-  declarations: [Module1MainComponent, Mod1MenuComponent, Screen1Component, Screen2Component, Sec1Component]
+  declarations: [Module1MainComponent, Mod1MenuComponent, Screen1Component, Screen2Component, Sec1Component, Sec2Component]
 })
 export class Module1Module { }
