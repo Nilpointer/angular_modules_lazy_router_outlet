@@ -1,5 +1,8 @@
 # Modit
 Example for using lazy loaded Modules with Angular 6 and multiple Router-Outlets in main as in loaded Modules.
+Simply not using an empty route in lazy loaded Modules seems to work as a workaround.
+
+If anybody has a better solution pleasse leave a note.
  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
